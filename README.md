@@ -2,7 +2,7 @@
 
 # LeaveNoTrace
 
-By [infrar3d](https://github.com/Infrar3dd)
+cr34t3d by [infrar3d](https://github.com/Infrar3dd)
 
 `leavenotrace.sh` is a Bash script designed to securely erase system logs, user history, temporary files, and other traces from a Linux system. The script aims to minimize recoverable traces by overwriting files with random data, shredding, and resetting timestamps
 
