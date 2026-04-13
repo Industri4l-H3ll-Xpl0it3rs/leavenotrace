@@ -6,19 +6,6 @@ cr34t3d by [infrar3d](https://github.com/Infrar3dd)
 
 `leavenotrace.sh` is a Bash script designed to securely erase system logs, user history, temporary files, and other traces from a Linux system. The script aims to minimize recoverable traces by overwriting files with random data, shredding, and resetting timestamps
 
-## Usage:
-```bash
-leavenotrace.sh [options]
-Options:
-  -h | --help Print this message and exit
-  -u | --username Target username (default is from whoami)
-  -t | --time Time in minutes
-
-  Example:
-  leavenotrace.sh -u admin -u user1 -t 60 (It will clear logs from admin, user1 and this user)
-  
-```
-
 ## Features
 
 - **System Log Cleaning**
@@ -46,6 +33,19 @@ Options:
 - **Current Session Cleaning**
   - Clears shell history for the current session.
   - Unsets history-related environment variables.
+
+## Usage:
+```bash
+leavenotrace.sh [options]
+Options:
+  -h | --help Print this message and exit
+  -u | --username Target username (default is from whoami)
+  -t | --time Time in minutes
+
+  Example:
+  leavenotrace.sh -u admin -u user1 -t 60 (It will clear logs from admin, user1 and this user)
+  
+```
 
 At first you need to root the machine and then you can clear traces after that
 
